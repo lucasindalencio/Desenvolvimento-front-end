@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <a href="menu.html">Home</a>
+    <h1>Agendamento para banho e tosa</h1>
+
+    <h2>Faça o seu agendamento com pelo menos 48 horas de antecedência</h2>
+
+    <form action="menu.html">
+        <fieldset>
+            <legend>Identificação do dono do animal</legend>
+            <div>
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" size="50" placeholder="Digite o nome completo do dono do animal">
+            </div>
+            <br>
+            <div>
+                <label>Endereço:</label><br>
+                <input type="text" size="100" placeholder="Digite o endereço">
+            </div>
+            <br>
+            <div>
+                <label>CEP:</label>
+                <input type="number" placeholder="XXXXX-XXX">
+            </div>
+            <br>
+            <div>
+                <label for="email">Email:</label> <br>
+                <input type="email" id="email" name="email" size="100" placeholder="Digite o endereço de email">
+            </div>
+            <br>
+            <div>
+                <label>Tel/Cel:</label>
+                <input type="number" placeholder="99 99999-9999">
+            </div>
+            <br>
+        </fieldset>
+        
+        <br>
+        <fieldset><legend>Animal</legend>
+            <div>
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" size="50" placeholder="Digite o nome do animal">
+            </div>
+            <br>
+            <div>
+                <label>Porte do cão:</label>
+                <input type="radio" name="porte">
+                <label>Pequeno</label>
+                <input type="radio" name="porte">
+                <label>Médio</label>
+                <input type="radio" name="porte">
+                <label>Grande</label>
+                <br>
+            </div>
+            <br>
+            <div>
+                <label>Reserva:</label>
+                <label>Segunda-feira:</label>
+                <input type="checkbox" name="seg">
+
+                <label>Terça-feira:</label>
+                <input type="checkbox" name="ter">
+
+                <label>Quarta-feira:</label>
+                <input type="checkbox" name="qua">
+
+                <label>Quinta-feira:</label>
+                <input type="checkbox" name="qui">
+
+                <label>Sexta-feira:</label>
+                <input type="checkbox" name="sex">
+            </div>
+            <br>
+            <div>
+                <label>Selecione:</label>
+                <select name="opcoes">
+                    <option value="opcao1">Opção 1</option>
+                    <option value="opcao2">Opção 2</option>
+                    <option value="opcao3">Opção 3</option>
+                </select>
+            </div>
+            <br>
+            <div>
+                <label>Obs.:</label>
+                <textarea cols="30" rows="5" placeholder="Observações..."></textarea>
+            </div>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Endereço</legend>
+            
+            <br>
+            
+        </fieldset>
+        <br>
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>
